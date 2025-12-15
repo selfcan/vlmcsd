@@ -162,7 +162,7 @@ jobs:
 
       - name: ⬇️ Download all build artifacts
         if: steps.check_release.outputs.exists == 'false'
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v7
         with:
           path: ./release-assets
 
