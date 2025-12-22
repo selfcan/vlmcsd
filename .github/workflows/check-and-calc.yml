@@ -77,7 +77,7 @@ jobs:
 
       - name: 📥 Download sha256sums
         run: |
-          BASE_URL="https://downloads.openwrt.org/releases/24.10.4/targets/x86/64"
+          BASE_URL="https://downloads.openwrt.org/releases/24.10.5/targets/x86/64"
           wget -q ${BASE_URL}/sha256sums
           echo "BASE_URL=$BASE_URL" >> "$GITHUB_ENV"
 
